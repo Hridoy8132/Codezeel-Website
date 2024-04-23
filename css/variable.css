@@ -1,0 +1,27 @@
+:root {
+  --font-korea-primary: "suit", sans-serif;
+  --font-korea-secondary: "pretendard", sans-serif;
+  --font-korea-third: "Noto Sans KR", sans-serif;
+  --font-en-primary: "Inter", sans-serif;
+  --font-family: "Roboto", sans-serif;
+  
+  --color-white: #fff;
+  --color-black: #000;
+
+  --text-primary: #0d0d0d;
+  --text-secondary: #909090;
+
+  --primary-color: #ff5252;
+  --secondary-color: #ffffff;
+  --price-color: #ff5252;
+  --link-hover-color: #ff5252;
+  --box-bodybkg-color: #ffffff;
+
+  --border-radius: 5px;
+  --body-font-family: Roboto;
+  --title-font-family: Roboto;
+  --banner-font-family: Roboto;
+  --body-font-size: 14px;
+}
+
+

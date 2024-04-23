@@ -1,0 +1,319 @@
+@import '../variable.css';
+
+.home1{
+  padding-top: 20px;
+  background-color: rgb(241, 231, 231);
+} 
+.home-grid {
+ 
+    display: grid;
+    grid-template-areas:
+      "I1 I1 I2"
+      "I1 I1 I3";
+      grid-gap:20px; 
+      
+  }
+  
+.item1 {
+    grid-area: I1;
+    position: relative;
+    /* height: 500px; */
+  }
+
+.item1 .item1-text{
+  position: absolute;
+  top: 100px;
+  left: 467px;
+
+}  
+.item1 p{
+  font-size:  25px;
+}  
+
+.item1 h1{
+  font-size: 40px;
+}
+.item1 span{
+  color: rgba(255, 15, 7, 0.644);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.item1 button,
+.img1-text button,
+.img2-text button{
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff4f4ef;
+  background-color: #f33b3b;
+  border: none;
+  padding: 10px 25px;
+
+}
+.item2 {
+    grid-area: I2;
+    position: relative;
+  }
+
+.item2-text{
+  position: absolute;
+  top: 36px;
+  left: 21px;
+}  
+
+.item2-text a{
+  text-decoration: underline;
+}
+.item2 p{
+  font-size:  25px;
+}  
+
+.item2 h1{
+  font-size: 40px;
+}
+.item2 span{
+  color: rgba(255, 15, 7, 0.644);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.item3 {
+  grid-area: I3;
+  position: relative;
+
+}
+
+.item3-text{
+  position: absolute;
+  top: 20px;
+  left: 175px;
+}
+ 
+
+.item3-text a{
+  text-decoration: underline;
+}
+.item3 p{
+  font-size:  25px;
+}  
+
+.item3 h1{
+  font-size: 40px;
+}
+.item3 span{
+  color: rgba(255, 15, 7, 0.644);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+ .home-grid img{
+  border-radius: 5px;
+  height: 100%;
+  
+
+ } 
+
+ .product{
+	display: flex;
+	align-items: center;
+  gap: 7px;
+  justify-content: space-between;
+
+}
+
+.productBox{
+
+	position: relative;
+  margin: 30px 0;
+  
+  
+
+}
+
+.productBox img{
+  border-radius: 8px;
+} 
+
+.productBox p{
+	position: absolute;
+  bottom: 19px;
+  left: 47px;
+  
+  
+}
+
+.home2{
+  margin: 50px 0;
+}
+
+.home2-shiping{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid hwb(0 6% 17%);
+  font-size: 20px;
+  padding: 25px 60px;
+  border-radius: 5px;
+}
+
+.shiping-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+
+}
+
+.home2-product-category,
+.latestImg-two-discountImg
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 58px 25px;
+  gap: 32px
+  
+}
+
+.home2-product-category img,
+.latestImg-two-discountImg
+{
+  border-radius: 8px;
+
+}
+.img1,.img2, .img3{
+  position: relative;
+}
+.img1-text {
+  position: absolute;
+  /* top: 20px; */
+  left: 260px;
+}
+
+/* latestImg-two-discountImg ar text part start  */
+.latestImg-two-discountImg .img1-text{
+  position: absolute;
+  /* top: 20px; */
+  left: 44px;
+}
+
+.latestImg-two-discountImg  .img1-text p,
+.latestImg-two-discountImg .img2-text p{
+  font-size: 18px;
+  padding-bottom: 14px;
+  font-weight: 410;
+  
+}
+     
+
+.img1-text h1{
+  font-size: 29px;
+}
+
+
+.latestImg-two-discountImg .img2-text{
+  position: absolute;
+  /* top: 20px; */
+  left: 730px;
+}
+
+/* latestImg-two-discountImg ar text part end */
+
+.img2-text{
+  position: absolute;
+  left: 700px;
+}
+
+.img3-text{
+  position: absolute;
+  left: 1180px;
+}
+
+
+.img1-text a, .img2-text a, .img3-text a{
+  text-decoration: underline;
+}
+.img1-text p, .img2-text p, .img3-text p{
+  font-size:  20px;
+  font-weight: bold;
+}  
+
+
+.img1-text span, .img2-text span, .img3-text span {
+  color: rgba(255, 15, 7, 0.644);
+  font-weight: bold;
+  font-size: 30px;
+}
+.fashion-electronic ul{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+
+.fashion-img,
+.latest-img{
+  display: grid; /*display;flex korle output properly astecena.*/
+  grid-template-columns: repeat(6,1fr);
+  margin: 15px 0px;
+  border-radius: 5px; 
+  border: 1px solid #e5e5e5 ;
+}
+
+.fashion-all-img,
+.latest-all-img{
+  border-inline-end: 1px solid #e5e5e5;
+ 
+}
+
+.clock-img-text{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.clock-img{
+  
+  margin: 50px 0;
+}
+
+.clock-text{
+ position: absolute;
+ width: 100%;
+
+}
+.clock-text1{
+  position: absolute;
+  color: #ffffff;
+  left: 346px;
+  top: 74px;
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+
+.clock-text2{
+  position: absolute;
+  color: #ffffff;
+  left: 536px;
+  top: 66px;
+  margin: 5px;
+  display: grid;
+  gap: 7px;
+}
+ 
+.latest-products p{
+  font-size: 20px;
+  font-weight: bold;
+
+
+}
+
+
+ 
+
+  

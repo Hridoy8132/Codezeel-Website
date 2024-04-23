@@ -1,0 +1,7 @@
+
+/* --- pages css --- */
+@import '../css/pages/home.css';
+/* --card section-- */
+@import '../css/shared/common/card.css';
+/* header section */
+@import '../css/shared/core/header.css';
