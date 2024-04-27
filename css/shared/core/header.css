@@ -70,7 +70,8 @@
   
  }
   
- .input-box{
+ .input-box
+  {
   flex: 1;
   margin: 0 40px;
   margin: 0 30px;
@@ -91,7 +92,8 @@
 
 }
 
-.input-box button {
+.input-box button,
+ .footer-middle button{
   padding: 8px 15px;
   background-color: red;
   color: white;
@@ -257,4 +259,81 @@ flex: 1;
   display: inline-block;
   margin-bottom: 5px;
 
+}
+
+/* End header section  */
+
+/* start footer section */
+
+.footer-top{
+  display: grid; 
+  grid-template-columns: repeat(5,1fr);
+  margin: 50px 55px;
+  gap: 50px;
+  padding-bottom: 25px;
+  
+}
+
+.footer-top a{
+  font-size: 40px;
+  padding: 15px 40px;
+}
+
+.footer-top h4{
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-bottom: 7px;
+}
+.footer-top p{
+  font-weight: 300;
+}
+
+.footer-top-border{
+
+  border-bottom: 1px solid #e5e5e5;
+
+
+}
+
+/* footer top section end */
+
+
+/* footer center start here  */
+.footer-middle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 20px;
+  padding: 60px 0;
+  line-gap-override: 5px;
+  
+
+}
+
+.footer-middle h4{
+  font-weight: bold;
+  padding: 15px 0;
+  font-size: 20px;
+
+}
+
+.footer-middle span{
+  font-size: 20px;
+  color: red;
+
+}
+
+.footer-middle a i{
+  color: red;
+}
+
+.footer-middle li{
+  list-style: none;
+}
+
+.footer-middle-part4 .inputBox{
+  height: 100%;
+  width: 50%;
 }
